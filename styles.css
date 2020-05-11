@@ -1,0 +1,51 @@
+#menu{
+    background-color:burlywood;
+    height: 100%;
+
+   
+    
+  }
+  #mySidenav a {
+      position: absolute;
+    left: -50px; /* Position them outside of the screen */
+    transition: 0.3s; /* Add transition on hover */
+    padding-top: 15px; /* 15px padding */
+    padding-bottom: 15px;
+    padding-left: 15px;
+    /* padding-right: 5px; */
+    width: 100px; /* Set a specific width */
+    text-decoration: none; /* Remove underline */
+    font-size: 15px; /* Increase font size */
+    color:burlywood; /* White text color */
+    border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+    background-color: black;
+   
+  }
+  
+  #mySidenav a:hover {
+    left: 0; /* On mouse-over, make the elements appear as they should */
+  }
+  
+  #home {
+    top: 100px;
+  }
+#about {
+    top: 180px;
+  }
+  
+  #resume {
+    top: 260px;
+  }
+  
+  #project {
+    top: 340px;
+
+  }
+  #github{
+    top: 420px;
+
+  }
+  #contact {
+    top: 500px;
+
+  }
